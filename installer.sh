@@ -10,6 +10,7 @@ update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-10 10
 
 add-apt-repository -y ppa:deadsnakes/ppa
 apt-get -y install python3
+apt-get -y install --only-upgrade python3
 
 #update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 10
 
