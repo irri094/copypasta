@@ -30,4 +30,4 @@ else
 	snap install pycharm-community --classic
 fi
 
-apt-get -y install codeblocks
+apt-get -y install codeblocks-contrib
