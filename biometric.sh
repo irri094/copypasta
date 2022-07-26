@@ -1,4 +1,5 @@
 # cpp compiler
+apt update
 add-apt-repository -y ppa:ubuntu-toolchain-r/test
 apt-get install gcc-snapshot -y
 apt update
@@ -6,7 +7,8 @@ apt -y install g++-9
 update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 2
 
 # python compiler
-
+apt-get -y install python3
+apt update
 apt-get -y install --only-upgrade python3
 
 # add-apt-repository -y ppa:deadsnakes/ppa
